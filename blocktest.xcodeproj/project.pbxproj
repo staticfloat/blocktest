@@ -6,8 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5647A49719609BFE00DAA65D /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5647A49519609BFE00DAA65D /* main.mm */; };
+		5647A49819609BFE00DAA65D /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = 5647A49619609BFE00DAA65D /* main.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		5647A48D19609BE400DAA65D /* libblocktest.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libblocktest.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		5647A49519609BFE00DAA65D /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		5647A49619609BFE00DAA65D /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +31,7 @@
 		5647A48419609BE400DAA65D = {
 			isa = PBXGroup;
 			children = (
+				5647A49419609BEB00DAA65D /* src */,
 				5647A48E19609BE400DAA65D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -36,6 +44,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5647A49419609BEB00DAA65D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5647A49519609BFE00DAA65D /* main.mm */,
+				5647A49619609BFE00DAA65D /* main.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -43,6 +60,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5647A49819609BFE00DAA65D /* main.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +115,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5647A49719609BFE00DAA65D /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
